@@ -11,6 +11,8 @@
 [![Three.js](https://img.shields.io/badge/Three.js-0.186-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
 [![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![GSAP](https://img.shields.io/badge/GSAP-3.15-88CE02?style=for-the-badge&logo=greensock&logoColor=white)](https://greensock.com/gsap/)
+[![Live Demo](https://img.shields.io/badge/Demo-Live_Preview-gold?style=for-the-badge&logo=googlechrome&logoColor=black)](https://skikrihassane01.github.io/luxury-smartwatch-landing/)
+[![Deploy Status](https://img.shields.io/badge/GitHub_Pages-Active-success?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SkikriHassane01/luxury-smartwatch-landing/actions/workflows/deploy.yml)
 
 <br />
 

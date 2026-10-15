@@ -28,7 +28,7 @@ function computeBand(progress: number, start: number, end: number, ramp = 0.04):
 
 export const WatchCanvasScrub: React.FC<WatchCanvasScrubProps> = ({
   totalFrames = 192,
-  framePrefix = '/assets/frames/frame_',
+  framePrefix = `${import.meta.env.BASE_URL}assets/frames/frame_`,
   frameExtension = '.jpg',
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);

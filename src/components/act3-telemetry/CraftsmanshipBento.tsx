@@ -41,7 +41,7 @@ export const CraftsmanshipBento: React.FC = () => {
               </div>
               <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-2xl overflow-hidden border border-[#C5A059]/30 shrink-0 shadow-2xl relative group-hover:scale-105 transition-transform duration-500">
                 <img
-                  src="/assets/generated/start_frame_grounded_1.png"
+                  src={`${import.meta.env.BASE_URL}assets/generated/start_frame_grounded_1.png`}
                   alt="SOUYIE Fluted Bezel and Diamond Dial"
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -76,7 +76,7 @@ export const CraftsmanshipBento: React.FC = () => {
                 </div>
                 <div className="w-14 h-14 rounded-xl overflow-hidden border border-white/10 shrink-0 shadow-lg">
                   <img
-                    src="/assets/generated/end_frame_grounded_1.png"
+                    src={`${import.meta.env.BASE_URL}assets/generated/end_frame_grounded_1.png`}
                     alt="Stainless Clasp & PPG Sensor"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     loading="lazy"

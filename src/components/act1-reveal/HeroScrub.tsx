@@ -24,10 +24,11 @@ export const HeroScrub: React.FC = () => {
 
   useEffect(() => {
     // Preload image stages
+    const base = import.meta.env.BASE_URL;
     const sources = [
-      '/assets/hero/hero_bezel_glide.png',
-      '/assets/hero/hero_hands_sweep.png',
-      '/assets/hero/hero_amoled_glow.png',
+      `${base}assets/hero/hero_bezel_glide.png`,
+      `${base}assets/hero/hero_hands_sweep.png`,
+      `${base}assets/hero/hero_amoled_glow.png`,
     ];
 
     imagesRef.current = sources.map((src) => {
@@ -137,7 +138,7 @@ export const HeroScrub: React.FC = () => {
         {/* Video Scrub Element */}
         <video
           ref={videoRef}
-          src="/assets/hero/hero_reveal.mp4"
+          src={`${import.meta.env.BASE_URL}assets/hero/hero_reveal.mp4`}
           muted
           playsInline
           preload="auto"
